@@ -5,8 +5,8 @@ $(document).ready(function(e){
     $("#myModal")[0].style.display = "block";
     var path = event.target.src;
     var name = event.target.getAttribute("id");
-    path = path.replace("/LowRes", "");
-    console.log(path);
+    //path = path.replace("/LowRes", "");
+    //console.log(path);
 
     $(".focus-image")[0].src = path;
     $("#textContent").html(bios[name]);
