@@ -41,6 +41,7 @@ body{
   width: 100%;
   height: auto;
   border: 1px solid black;
+  object-fit: contain;
 }
 
 .info{
@@ -84,6 +85,18 @@ body{
   overflow: auto;
 }
 
+.text-content{
+  width:  100%;
+  margin: 0 15px;
+}
+
+.text-content>p{
+  text-align: left;
+}
+.text-content>p.center{
+  text-align: center;
+}
+
 .modal-item{
   display: flex;
 }
@@ -97,6 +110,7 @@ body{
   width: 100%;
   height: auto;
   margin: 0 auto;
+  object-fit: contain;
 }
 
 /* The Close Button */
