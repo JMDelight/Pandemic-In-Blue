@@ -74,6 +74,7 @@ body{
   width: 60%; /* Could be more or less, depending on screen size */
   text-align: center;
   display: flex;
+  max-height: 80%;
 }
 
 .image-container{
@@ -82,7 +83,7 @@ body{
 }
 .text-container{
   width: 30%;
-  height: 100%;
+  height: inherit;
   overflow: auto;
 }
 
